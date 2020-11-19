@@ -1,1 +1,13 @@
-test: bus-123
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      #      StorageComponent: elasticsearch
+      #      cluster: elasticsearch
+      #      hosts: 47.104.131.144:9200
+      url: http://47.104.131.144:9200
+      index: devzipkin
+#      max-requests: 64
+#      index: zipkin
+#      index-shards: 5
+#      index-replicas: 1
