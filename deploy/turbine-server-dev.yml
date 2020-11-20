@@ -1,7 +1,7 @@
 # turbine 配置
 turbine:
   combine-host-port: true
-  app-config: '@zuul.server.id@',TEST-SERVER
+  app-config: ZUUL-SERVER,TEST-SERVER
   cluster-name-expression: new String("default")
   # turbine聚集数据的粒度
   aggregator:
